@@ -8,12 +8,12 @@ class Student {
 	public:
 		string name;
 		int id;
-		float gpa;
+		float GPA;
 
-		Student(string inName = "nobody", int inId = -1, float inGpa = 0.0) {
+		Student(string inName = "nobody", int inId = -1, float inGPA = 0.0) {
 			name = inName;
 			id = inId;
-			gpa = inGpa;
+			GPA = inGPA;
 		}
 };
 

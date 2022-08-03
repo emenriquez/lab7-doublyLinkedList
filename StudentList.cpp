@@ -27,21 +27,24 @@
 
 	//insert a student at the position "index".
 	// for this list, count head as index 0
+	// if index is outside of current list range, 
+	// print a message and insert the student at the back of the list
 	void StudentList::insertStudent(Student s, int index) {}
 
 	//find the student with the given id number and return them
 	// if no student matches, print a message 
 	// and return a dummy student object
-	Student StudentList::retrieveStudent(int idnumber) {
+	Student StudentList::retrieveStudent(int idNum) {
 		Student fixthis;
 		return fixthis;
 	}
 
 	// Remove a student from the list with a given id number
 	// If no student matches, print a message and do nothing
+	void StudentList::removeStudentById(int idNum) {}
 
 	//Change the gpa of the student with given id number to newGPA
-	void StudentList::updateGPA(int idnumber, float newGPA) {}
+	void StudentList::updateGPA(int idNum, float newGPA) {}
 
 	//Add all students from otherlist to this list.
 	//otherlist should be empty after this operation.

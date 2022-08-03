@@ -4,7 +4,7 @@ a.out: tests.cpp StudentList.cpp StudentList.h
 	g++ -std=c++11 tests.cpp
 
 test: a.out
-	./a.out "$(try)"
+	./a.out -s "$(try)"
 
 clean:
 	rm a.out
