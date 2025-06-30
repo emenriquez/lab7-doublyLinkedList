@@ -1,7 +1,20 @@
+# Compiled programs
 a.out
-b.out
-solution.cpp
+*.out
+test_program
+demo_program
+
+# System files
 .DS_Store
-.vscode
-PROJECT_UPDATES.md
+
+# IDE files
+.vscode/
+*.swp
+*.swo
+
+# Solution files (for instructor use)
 *solution*
+*Solution*
+
+# Generated HTML assignments (keep local only)
+*.html
